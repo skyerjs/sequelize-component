@@ -28,14 +28,21 @@ Or
 ## Usage
 
 ```js
-const sequelize = skyer.componentManager.getComponent('sequelize');
+const sequelize = skyer.component.get('sequelize');
 
+const UserModel = sequelize.model('User');
 
+console.log(sequelize.isDefined('User'));
+
+const user = yield UserModel.create({
+  name: 'jerry wu',
+  organization: 'skyer-team'
+});
 ```
 
 ## Options
 
-See `sequelize` [options](http://docs.sequelizejs.com/en/latest/api/sequelize/#class-sequelize)
+See `Sequelize` [options](http://docs.sequelizejs.com/en/latest/api/sequelize/#class-sequelize)
 
 ## Example
 
