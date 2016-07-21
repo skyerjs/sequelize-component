@@ -1,6 +1,6 @@
 {
   "name": "skyer-sequelize-component",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Skyer sequelize component",
   "main": "index.js",
   "scripts": {
