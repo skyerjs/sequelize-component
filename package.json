@@ -1,0 +1,28 @@
+{
+  "name": "skyer-sequelize-component",
+  "version": "0.0.1",
+  "description": "Skyer sequelize component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyerjs/sequelize-component.git"
+  },
+  "keywords": [
+    "skyer",
+    "sequelize",
+    "mysql",
+    "component"
+  ],
+  "author": "jerrywu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyerjs/sequelize-component/issues"
+  },
+  "homepage": "https://github.com/skyerjs/sequelize-component#readme",
+  "dependencies": {
+    "sequelize": "^3.23.6"
+  }
+}
